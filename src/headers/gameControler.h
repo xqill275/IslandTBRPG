@@ -4,13 +4,14 @@
 
 #ifndef GAMECONTROLER_H
 #define GAMECONTROLER_H
-
+#include <string>
 
 
 class gameControler {
 public:
     void mainMenu();
     void characterCreator();
+    std::string getPlayerInput(std::string textDescript);
 
 private:
 };
